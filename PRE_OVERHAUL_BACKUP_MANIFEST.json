@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "status": "VERIFIED_HISTORICAL_READ_ONLY_BACKUP",
+  "primary_repository": "Tendas240/Lethal-Company-AI-Modding-Project",
+  "frozen_source_commit_sha": "5dbd0e637a480d8591773e422bbca4b0654cad20",
+  "frozen_source_tree_sha": "0e17aac410cf600a164396b5586b5b50f084df22",
+  "purpose": "Independent recovery and comparison repository for the complete pre-overhaul project state. This repository is NOT the current Source of Truth and must not be used for continued development.",
+  "preservation": {
+    "frozen_main_commit_present": true,
+    "frozen_main_tree_present": true,
+    "branches_preserved": [
+      "main",
+      "pre-overhaul-freeze-20260904-5dbd0e6",
+      "runtime-large"
+    ],
+    "tags_at_source": [],
+    "tags_preserved": true,
+    "full_commit_history_reachable_from_preserved_refs": true
+  },
+  "verification": {
+    "result": "PASS",
+    "frozen_commit_identity_matches_source": true,
+    "frozen_tree_identity_matches_source": true,
+    "runtime_large_branch_sha": "2e3b17f028ff5d194307776d39a509ddb3658e5b",
+    "limitations": [
+      "GitHub rejected refs/pull/* hidden pull-request refs during git push --mirror. These are GitHub-managed hidden refs, not normal branches or tags, and are not required for project recovery.",
+      "This provenance manifest is an archival metadata commit on top of the exact frozen source commit; the complete pre-overhaul tree remains available as parent commit 5dbd0e637a480d8591773e422bbca4b0654cad20."
+    ]
+  }
+}
